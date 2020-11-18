@@ -6,7 +6,7 @@ With the scripts of this project you can calculate what are the most distinguish
 
 Running the scripts returns a CSV file that can be used to create infographics like this:
 
-<img src="images/infographic.jpg" width="450">
+<img src="images/infographic.jpg" width="500">
 
 For this sample infographic all the images were created with [This Person Doesn't Exist](https://thispersondoesnotexist.com/).
 All the words under the images are random and don't indicate any specific person.
@@ -21,7 +21,7 @@ The following formula was used to estimate how unique the word is to a specific 
 
 - A Slack account
 - Python version 3.3+ to be able to run Python code ([download here](https://www.python.org/downloads/))
-- [Jupyter Notebook](https://jupyter.org/) to be able to read and modify Python code in a nice interface ([installation guideline here](https://jupyter.readthedocs.io/en/latest/install/notebook-classic.html))
+- (Optional) [Jupyter Notebook](https://jupyter.org/) to be able to read and modify Python code in a nice interface ([installation guideline here](https://jupyter.readthedocs.io/en/latest/install/notebook-classic.html))
 
 
 ## Status
@@ -41,7 +41,7 @@ As you need to be authenticated to see the messages and often the content doesn'
 
 1. Go to any page of your Slack messages and click on the search bar, which should open the following view:
 
-<img src="images/slack.jpg" width="600">
+<img src="images/slack.jpg" width="640">
 
 2. Search for a user whose messages to scrape and a public channel, e.g.:
 
@@ -59,7 +59,7 @@ As you need to be authenticated to see the messages and often the content doesn'
 
 1. Open the Command Prompt and run `pip install pandas`
 
-2. Run the Python script inside the [Jupyter Notebook file](part-2-slack-analysing.ipynb)
+2. Run the Python script inside the [Jupyter Notebook file](part-2-slack-analysing.ipynb) or run `python part-2-slack-analysing.py` in the Command Prompt in the repository's root directory
 
 3. When the script finishes running, a CSV file with the words and calculations will be exported to the same folder
 
